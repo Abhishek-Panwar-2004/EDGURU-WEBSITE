@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edguru</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="leftnav">
+            <li class="logo"><img
+                    src="https://w7.pngwing.com/pngs/310/448/png-transparent-study-skills-education-learning-computer-icons-sc-logo-angle-hat-teacher.png"
+                    alt="Edguru"></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <button class="sbtn">Search</button>
+        </div>
+    </nav>
+    <section class="background firstsec">
+        <div class="mainbox">
+            <div class="firsthalf">
+                <p class="big">Welcome to Edguru!</p><br><br>
+                <p class="small">In the world where a good quality education is considered a luxury, Edguru is going to
+                    bring a revolution with free quality education.</p>
+                <div class="buttons"><br>
+                    <button onclick="document.getElementById('24').style.display='block'" class="login">LOGIN</button>
+                    <button class="register">REGISTER</button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="https://blog.hubspot.com/hubfs/best-online-courses.jpg" alt="EDGURU">
+            </div>
+            <div id="24" class="form">
+                <form class="animate" action="LOGIN" method="post">
+                    <div class="avatar"><img
+                            src="https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
+                            alt="AVATAR"></div>
+                    <br>
+
+                    <div class="name"><label for="username"><b>USERNAME:</b></label>
+                        <input type="text" placeholder="Enter your name" id="name" required>
+                    </div>
+                    <div class="pass"><label for="pass"><b>PASSWORD:</b></label>
+                        <input type="password" name="pass" id="pass" placeholder="Enter your password" required>
+                    </div>
+                    <div class="tick"><input type="checkbox" name="Remember me" id="rem"></div>
+                    <label for="Remember me">Remember me</label>
+                    <input type="submit" value="LOGIN">
+                    <div class="cancel"><input type="button" value="Cancel"></div>
+                </form>
+            </div>
+        </div>
+        <section class="secondsec">
+            <div class="leftside">
+                <div class="para">Join Edguru now and get access to 200+ courses</div>
+                <div class="pics">
+                    <div class="jee"><img src="https://cbseportal.com/files/IIT-JEE-LOGO.jpg" alt="JEE"></div>
+                    <div class="upsc"><img
+                            src="https://s3-ap-south-1.amazonaws.com/adda247jobs-wp-assets-adda247/articles/wp-content/uploads/2022/11/29174416/1-Poster-copy-23-640x853.jpg"
+                            alt="UPSC"></div>
+                    <div class="ca"><img src="https://icaikw.org/img/logo_download.jpg" alt="CA"></div>
+                    <div class="neet"><img src="https://theshillongtimes.com/wp-content/uploads/2020/10/NEET-logo.jpg"
+                            alt="NEET">
+                    </div>
+                    <div class="gate"><img
+                            src="https://edurev.gumlet.io/ApplicationImages/Temp/11824378_3bad06d3-4628-4e0f-b5b8-9120e451798a_lg.png?w=900&dpr=1.0"
+                            alt="GATE"></div>
+                </div>
+                <div class="many"><a href="#many">And Many More</a></div>
+            </div>
+        </section>
+    </section>
+
+    <div class="footer">
+        <footer>
+            <p><a href="#service">Service</a></p>
+            <p><a href="#study">Study materials</a></p>
+            <p><a href="#notes">Notes</a></p>
+            <p><a href="#ncert">NCERT</a></p>
+            <p><a href="#gallery">Gallery</a></p>
+        </footer>
+    </div>
+
+    
+    
+</body>
+
+</html>
